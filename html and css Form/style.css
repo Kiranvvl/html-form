@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#open{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;background-color: lightgreen;
+    border: 2px solid blue;
+}
+.heading h1{
+    font-size: 50px;
+    text-align: center;
+    margin:20px;
+    color: rgb(78, 30, 110);
+    background:#0BACB5 ;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.heading h1:hover{ 
+    text-transform: uppercase;
+    color:rgb(166,26,138);
+    background:black ;
+    margin-bottom: 20bx;
+    transition: 1s;
+}
+
+.container1{
+    width:50%;
+    float:left;
+    color:red;
+    padding-right: 5px;
+    
+    
+}
+
+.kkk{
+    
+    border: 2px solid black;
+    width:500px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    background:white ;
+    
+
+}
+.kkk input.a{
+    padding: 10px;
+    border-radius:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(8,107,197);
+    color: bisque;
+}
+.kkk input.b{
+    padding: 10px;
+    border-radius:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(8,107,197);
+    color: bisque;
+}
+.kkk input.c{
+    padding: 10px;
+    border-radius:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(8,107,197);
+    color: bisque;
+}
+.kkk input.d{
+    padding: 10px;
+    border-radius:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(8,107,197);
+    color: bisque;
+}
+
+.ccc{
+    margin-top: 10px;
+    
+}
+.kkk input.e{
+    margin-top: 10px;
+    background: rgb(8,107,197);
+    color: bisque;
+}
+.mmm{
+    margin-top: 10px;
+    
+}
+  .msg{
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    background: rgb(8,107,197);
+    color: bisque;
+}
+
+.but{
+    width: 100%;
+    border-radius:5px ;
+    background: orange;
+    margin: 5px;
+    padding: 5px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+

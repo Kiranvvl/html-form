@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script>
+         $(document).ready(function(){
+       $('.demo').submit(function(event){
+           event.preventDefault();
+            var login=$(this)
+            var logindata=login.find('input,select,checkbox,radio')
+           console.log (logindata);
+        
+           console.log('kiran');
+           var datas=logindata.serialize();
+           var request=$.ajax({
+               url:'https://reqres.in/api/users',
+               type:'post',
+               data:datas
+           })
+           request.done(function(response,textstatus,jqXHR){
+               alert('insert successfully')
+       })
+
+    })
+})
+    </script>
+</head>
+<body>
+    <form class="demo">
+          
+          <label for="">first name</label>
+          <input type="text" name="name" placeholder="first-name">
+          <label for="">last name</label>
+          <input type="text" name="job" placeholder="last-name">
+          <input type="submit">
+
+   </form>
+</body>
+</html>
